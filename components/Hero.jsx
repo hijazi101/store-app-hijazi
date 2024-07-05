@@ -5,7 +5,7 @@ import { useSession } from 'next-auth/react';
 import Toast from '@/components/Toast'; 
 import app from '@/firebaseconfig';
 import { collection, getDocs, getFirestore, query, where, orderBy,doc ,updateDoc ,deleteDoc} from 'firebase/firestore';
-import { useNavigate } from 'react-router-dom';
+
 
 const AddToCartButton = () => {
   const router = useRouter();
